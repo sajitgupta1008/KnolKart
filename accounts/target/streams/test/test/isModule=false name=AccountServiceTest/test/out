@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mAccountServiceTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to add user[0m[0m
+[0m[[0minfo[0m] [0m[32m- fail to add duplicate user[0m[0m
+[0m[[0minfo[0m] [0m[32m- authenticate user with success[0m[0m
+[0m[[0minfo[0m] [0m[32m- fail to authenticate user [0m[0m
