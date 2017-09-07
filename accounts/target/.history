@@ -1,0 +1,7 @@
+test
+coverage test coverageReport
+coverage test 
+coverage
+test
+coverageReport
+project inventory

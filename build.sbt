@@ -1,4 +1,4 @@
-lazy val commonSettings = Seq(name := "TestProject",
+lazy val commonSettings = Seq(
   version := "1.0",
   scalaVersion := "2.12.1",
   libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.3" % "test"
@@ -31,10 +31,10 @@ lazy val notification = (project in file("notification"))
 lazy val api = (project in file("api"))
   .settings(
     commonSettings
-  )
+  ).dependsOn(inventory,accounts,checkout, dashboard,notification)
 
 lazy val root = (project in file("."))
   .aggregate(inventory, checkout, dashboard, notification, accounts, api)
   .settings(
-    aggregate in update := false
-  )
+    commonSettings
+  ).dependsOn(inventory, checkout, dashboard, notification, accounts, api)

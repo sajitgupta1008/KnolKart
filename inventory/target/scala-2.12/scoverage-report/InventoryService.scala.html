@@ -1,0 +1,1085 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          InventoryService.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import scala.collection.mutable
+</span>2 <span style=''>import scala.concurrent.Future
+</span>3 <span style=''>import scala.concurrent.ExecutionContext.Implicits.global
+</span>4 <span style=''>class InventoryService {
+</span>5 <span style=''>
+</span>6 <span style=''>  val category = </span><span style='background: #AEF1AE'>&quot;fashion&quot;</span><span style=''>
+</span>7 <span style=''>  val photoSizeInBytes = </span><span style='background: #AEF1AE'>200</span><span style=''>
+</span>8 <span style=''>  val rating = </span><span style='background: #AEF1AE'>5</span><span style=''>
+</span>9 <span style=''>  val price = </span><span style='background: #AEF1AE'>2000</span><span style=''>
+</span>10 <span style=''>  val item1 = </span><span style='background: #AEF1AE'>Item(category, &quot;navy blue Lotto shoes&quot;, Photo(&quot;Havaii trip&quot;, photoSizeInBytes), &quot;Flipkart&quot;,
+</span>11 <span style=''></span><span style='background: #AEF1AE'>    rating, price)</span><span style=''>
+</span>12 <span style=''>  val item2 = </span><span style='background: #AEF1AE'>Item(category, &quot;t-shirt&quot;, Photo(&quot;Paris trip&quot;, photoSizeInBytes), &quot;Snapdeal&quot;, rating + 1,
+</span>13 <span style=''></span><span style='background: #AEF1AE'>    price + price)</span><span style=''>
+</span>14 <span style=''>
+</span>15 <span style=''>  val itemMap: mutable.Map[String, List[Item]] = </span><span style='background: #AEF1AE'>mutable.Map(category -&gt; List(item1,item2))</span><span style=''>
+</span>16 <span style=''>
+</span>17 <span style=''>  def searchBasedOnCategory(category: String):Future[Option[List[Item]]] ={ </span><span style='background: #AEF1AE'>Future{
+</span>18 <span style=''></span><span style='background: #AEF1AE'>    itemMap.get(category)
+</span>19 <span style=''></span><span style='background: #AEF1AE'>  }</span><span style=''>}
+</span>20 <span style=''>
+</span>21 <span style=''>  def sortItems(searchParameter: String): Future[List[Item]] = {
+</span>22 <span style=''>    </span><span style='background: #AEF1AE'>Future {
+</span>23 <span style=''></span><span style='background: #AEF1AE'>      searchParameter match {
+</span>24 <span style=''></span><span style='background: #AEF1AE'>        case &quot;price: high to low&quot; =&gt; itemMap.values.toList.flatten.sortWith(_.price &gt; _.price)
+</span>25 <span style=''></span><span style='background: #AEF1AE'>        case &quot;price: low to high&quot; =&gt; itemMap.values.toList.flatten.sortWith(_.price &lt; _.price)
+</span>26 <span style=''></span><span style='background: #AEF1AE'>        case &quot;rating: low to high&quot; =&gt; itemMap.values.toList.flatten.sortWith(_.rating &lt; _.rating)
+</span>27 <span style=''></span><span style='background: #AEF1AE'>        case _ =&gt; </span><span style='background: #F0ADAD'>itemMap.values.toList.flatten.sortWith(_.rating &gt; _.rating)</span><span style='background: #AEF1AE'>
+</span>28 <span style=''></span><span style='background: #AEF1AE'>      }
+</span>29 <span style=''></span><span style='background: #AEF1AE'>    }</span><span style=''>
+</span>30 <span style=''>  }
+</span>31 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          164
+          -
+          173
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;fashion&quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          199
+          -
+          202
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          200
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          218
+          -
+          219
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          5
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          234
+          -
+          238
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          2000
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          314
+          -
+          330
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.photoSizeInBytes
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.photoSizeInBytes
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          258
+          -
+          266
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.category
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.category
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          253
+          -
+          363
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Item.apply
+        </td>
+        <td style="background: #AEF1AE">
+          Item.apply(InventoryService.this.category, &quot;navy blue Lotto shoes&quot;, Photo.apply(&quot;Havaii trip&quot;, InventoryService.this.photoSizeInBytes), &quot;Flipkart&quot;, InventoryService.this.rating, InventoryService.this.price.toDouble)
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          299
+          -
+          312
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Havaii trip&quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          333
+          -
+          343
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Flipkart&quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          293
+          -
+          331
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Photo.apply
+        </td>
+        <td style="background: #AEF1AE">
+          Photo.apply(&quot;Havaii trip&quot;, InventoryService.this.photoSizeInBytes)
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          268
+          -
+          291
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;navy blue Lotto shoes&quot;
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          349
+          -
+          355
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.rating
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.rating
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          357
+          -
+          362
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.Int.toDouble
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.price.toDouble
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          378
+          -
+          485
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Item.apply
+        </td>
+        <td style="background: #AEF1AE">
+          Item.apply(InventoryService.this.category, &quot;t-shirt&quot;, Photo.apply(&quot;Paris trip&quot;, InventoryService.this.photoSizeInBytes), &quot;Snapdeal&quot;, InventoryService.this.rating.+(1), InventoryService.this.price.+(InventoryService.this.price).toDouble)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          424
+          -
+          440
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.photoSizeInBytes
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.photoSizeInBytes
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          455
+          -
+          465
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.rating.+(1)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          383
+          -
+          391
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.category
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.category
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          410
+          -
+          422
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Paris trip&quot;
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          443
+          -
+          453
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Snapdeal&quot;
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          404
+          -
+          441
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Photo.apply
+        </td>
+        <td style="background: #AEF1AE">
+          Photo.apply(&quot;Paris trip&quot;, InventoryService.this.photoSizeInBytes)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          393
+          -
+          402
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;t-shirt&quot;
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          471
+          -
+          484
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.Int.toDouble
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.price.+(InventoryService.this.price).toDouble
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          479
+          -
+          484
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.price
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.price
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          571
+          -
+          576
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.item2
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.item2
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          536
+          -
+          578
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.generic.GenMapFactory.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.mutable.Map.apply[String, List[Item]](scala.Predef.ArrowAssoc[String](InventoryService.this.category).-&gt;[List[Item]](scala.collection.immutable.List.apply[Item](InventoryService.this.item1, InventoryService.this.item2)))
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          565
+          -
+          570
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.item1
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.item1
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          548
+          -
+          577
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.ArrowAssoc.-&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.ArrowAssoc[String](InventoryService.this.category).-&gt;[List[Item]](scala.collection.immutable.List.apply[Item](InventoryService.this.item1, InventoryService.this.item2))
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          560
+          -
+          577
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[Item](InventoryService.this.item1, InventoryService.this.item2)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          548
+          -
+          556
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          InventoryService.category
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.category
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          656
+          -
+          693
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.concurrent.Future.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.concurrent.Future.apply[Option[List[Item]]](InventoryService.this.itemMap.get(category))(scala.concurrent.ExecutionContext.Implicits.global)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          668
+          -
+          689
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.get
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.itemMap.get(category)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          765
+          -
+          1183
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.concurrent.Future.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.concurrent.Future.apply[List[Item]](searchParameter match {
+  case &quot;price: high to low&quot; =&gt; InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$1: Item, x$2: Item) =&gt; x$1.price.&gt;(x$2.price)))
+  case &quot;price: low to high&quot; =&gt; InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$3: Item, x$4: Item) =&gt; x$3.price.&lt;(x$4.price)))
+  case &quot;rating: low to high&quot; =&gt; InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$5: Item, x$6: Item) =&gt; x$5.rating.&lt;(x$6.rating)))
+  case _ =&gt; InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$7: Item, x$8: Item) =&gt; x$7.rating.&gt;(x$8.rating)))
+})(scala.concurrent.ExecutionContext.Implicits.global)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          863
+          -
+          863
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.$conforms[List[Item]]
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          841
+          -
+          898
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$1: Item, x$2: Item) =&gt; x$1.price.&gt;(x$2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          34
+        </td>
+        <td>
+          880
+          -
+          897
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          x$1.price.&gt;(x$2.price)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          890
+          -
+          897
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.price
+        </td>
+        <td style="background: #AEF1AE">
+          x$2.price
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          975
+          -
+          992
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&lt;
+        </td>
+        <td style="background: #AEF1AE">
+          x$3.price.&lt;(x$4.price)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          37
+        </td>
+        <td>
+          985
+          -
+          992
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.price
+        </td>
+        <td style="background: #AEF1AE">
+          x$4.price
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          36
+        </td>
+        <td>
+          958
+          -
+          958
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.$conforms[List[Item]]
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          39
+        </td>
+        <td>
+          936
+          -
+          993
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$3: Item, x$4: Item) =&gt; x$3.price.&lt;(x$4.price)))
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          41
+        </td>
+        <td>
+          1082
+          -
+          1090
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.rating
+        </td>
+        <td style="background: #AEF1AE">
+          x$6.rating
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          40
+        </td>
+        <td>
+          1054
+          -
+          1054
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.$conforms[List[Item]]
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          43
+        </td>
+        <td>
+          1032
+          -
+          1091
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #AEF1AE">
+          InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$5: Item, x$6: Item) =&gt; x$5.rating.&lt;(x$6.rating)))
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          42
+        </td>
+        <td>
+          1071
+          -
+          1090
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&lt;
+        </td>
+        <td style="background: #AEF1AE">
+          x$5.rating.&lt;(x$6.rating)
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          44
+        </td>
+        <td>
+          1132
+          -
+          1132
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #F0ADAD">
+          scala.Predef.$conforms[List[Item]]
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          1110
+          -
+          1169
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #F0ADAD">
+          InventoryService.this.itemMap.values.toList.flatten[Item](scala.Predef.$conforms[List[Item]]).sortWith(((x$7: Item, x$8: Item) =&gt; x$7.rating.&gt;(x$8.rating)))
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          46
+        </td>
+        <td>
+          1149
+          -
+          1168
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          x$7.rating.&gt;(x$8.rating)
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          45
+        </td>
+        <td>
+          1160
+          -
+          1168
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.rating
+        </td>
+        <td style="background: #F0ADAD">
+          x$8.rating
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
