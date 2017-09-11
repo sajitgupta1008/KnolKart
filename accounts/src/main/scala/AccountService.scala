@@ -7,7 +7,8 @@ import scala.collection.mutable
 
 class AccountService {
 
-  var userMap:mutable.Map[Long, User] = mutable.Map[Long,User]()
+  var userMap: mutable.Map[Long, User] = mutable.Map[Long, User]()
+
   def addUser(user: User): Boolean = {
 
 
@@ -15,15 +16,17 @@ class AccountService {
     if (users.isEmpty || userMap.isEmpty) {
       userMap += (user.mobileNo -> user)
       true
-    } else
+    } else {
       false
+    }
   }
 
   def authenticate(userName: String, password: String): String = {
 
     val users = userMap.filter(x => x._2.userName == userName && x._2.password == password)
-    if (users.isEmpty)
+    if (users.isEmpty) {
       "fail"
+    }
     else {
       val token = BCrypt.hashpw(password, BCrypt.gensalt())
       token

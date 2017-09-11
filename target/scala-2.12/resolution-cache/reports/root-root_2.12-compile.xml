@@ -7,10 +7,10 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20170906104008"/>
+		date="20170911122045"/>
 	<dependencies>
 		<module organisation="api" name="api_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104008" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="8">
+			<revision name="1.0" status="integration" pubdate="20170911122044" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="8">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<artifacts>
@@ -18,7 +18,7 @@
 			</revision>
 		</module>
 		<module organisation="notification" name="notification_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104005" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="7">
+			<revision name="1.0" status="integration" pubdate="20170911122043" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="7">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<caller organisation="api" name="api_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -27,7 +27,7 @@
 			</revision>
 		</module>
 		<module organisation="dashboard" name="dashboard_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104005" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="6">
+			<revision name="1.0" status="integration" pubdate="20170911122042" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="6">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<caller organisation="api" name="api_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -36,7 +36,7 @@
 			</revision>
 		</module>
 		<module organisation="checkout" name="checkout_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104007" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+			<revision name="1.0" status="integration" pubdate="20170911122044" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<caller organisation="api" name="api_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -45,7 +45,7 @@
 			</revision>
 		</module>
 		<module organisation="accounts" name="accounts_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104006" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+			<revision name="1.0" status="integration" pubdate="20170911122043" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="checkout" name="checkout_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -67,7 +67,7 @@
 			</revision>
 		</module>
 		<module organisation="inventory" name="inventory_2.12">
-			<revision name="1.0" status="integration" pubdate="20170906104006" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="1.0" status="integration" pubdate="20170911122043" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="checkout" name="checkout_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<caller organisation="root" name="root_2.12" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>

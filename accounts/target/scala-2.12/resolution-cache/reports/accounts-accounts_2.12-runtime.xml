@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20170906104436"/>
+		date="20170911122043"/>
 	<dependencies>
 		<module organisation="org.mindrot" name="jbcrypt">
 			<revision name="0.3m" status="release" pubdate="20100517081639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mindrot.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">

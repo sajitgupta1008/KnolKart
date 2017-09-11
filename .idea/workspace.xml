@@ -2,215 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2300ea1-8c8b-4b33-8493-198232201f9b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_6_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_6_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalactic_scalactic_2_11_3_0_3_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_3_0_3_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/testproject-testproject_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/testproject/testproject_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notification/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3aacab29e1e9fbbbb753.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$accounts$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$accounts$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$accounts$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$accounts$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$accounts$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$api$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$api$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$api$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$api$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$checkout$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$commonSettings$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$commonSettings$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$commonSettings$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$commonSettings$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$dashboard$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$dashboard$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$dashboard$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$dashboard$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$inventory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$inventory$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$inventory$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$inventory$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$notification$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$notification$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$notification$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$notification$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$root$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$root$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$root$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$root$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$$anonfun$root$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$76dcceafcab1dca56abb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/root-root_2.10-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/root/root_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/root/root_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/coverage-report/cobertura.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-data/scoverage.measurements.47" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/AccountService.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/main.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/packages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/coverage-report/cobertura.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/Cart.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/packages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/coverage-report/cobertura.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.measurements.53" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.measurements.65" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.measurements.71" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.measurements.72" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/InventoryService.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/packages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a71727e6b7c4ee61fe52$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a71727e6b7c4ee61fe52$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a71727e6b7c4ee61fe52.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a71727e6b7c4ee61fe52.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/main/scala/AccountService.class" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/main/scala/AccountService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/clean/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/clean/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/api/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/api/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart.class" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/InventoryService.class" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/InventoryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/notification/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/notification/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/clean/$global/streams/out" afterPath="$PROJECT_DIR$/notification/target/streams/$global/clean/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/accounts-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/accounts-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/api-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/api-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/checkout-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/checkout-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dashboard-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/dashboard-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/inventory-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/inventory-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/notification-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/notification-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/accounts.iml" afterPath="$PROJECT_DIR$/accounts/accounts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala" afterPath="$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/accounts/accounts_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/accounts/accounts_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/accounts/accounts_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/accounts/accounts_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-compile.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-docs.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-optional.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-plugin.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-pom.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-provided.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-runtime.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-sources.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-test.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/accounts-accounts_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/coverageReport/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/coverageReport/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/out" />
@@ -229,26 +84,78 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/succeeded_tests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/test-reports/AccountServiceTest.xml" afterPath="$PROJECT_DIR$/accounts/target/test-reports/AccountServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/api/api_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/api/api_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/api/api_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/api/api_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-compile.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-docs.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-optional.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-plugin.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-pom.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-provided.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-runtime.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-sources.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-test.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/api-api_2.12-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/internalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/checkout.iml" afterPath="$PROJECT_DIR$/checkout/checkout.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/src/main/scala/CartService.scala" afterPath="$PROJECT_DIR$/checkout/src/main/scala/CartService.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/checkout/checkout_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/checkout/checkout_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/checkout/checkout_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/checkout/checkout_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-compile.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-docs.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-optional.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-plugin.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-pom.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-provided.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-runtime.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-sources.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-test.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/coverageReport/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/coverageReport/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/dashboard.iml" afterPath="$PROJECT_DIR$/dashboard/dashboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/dashboard/dashboard_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/dashboard/dashboard_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/dashboard/dashboard_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/dashboard/dashboard_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-compile.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-docs.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-optional.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-plugin.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-pom.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-provided.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-runtime.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-sources.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-test.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/dashboard-dashboard_2.12-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
@@ -259,11 +166,27 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/inventory.iml" afterPath="$PROJECT_DIR$/inventory/inventory.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" afterPath="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/src/main/scala/Photo.scala" afterPath="$PROJECT_DIR$/inventory/src/main/scala/Photo.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/inventory/inventory_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/inventory/inventory_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/inventory/inventory_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/inventory/inventory_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-compile.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-docs.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-optional.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-plugin.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-pom.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-provided.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-runtime.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-sources.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-test.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/coverageReport/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/coverageReport/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
@@ -279,7 +202,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/succeeded_tests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/test-reports/InventoryServiceTest.xml" afterPath="$PROJECT_DIR$/inventory/target/test-reports/InventoryServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/notification.iml" afterPath="$PROJECT_DIR$/notification/notification.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/notification/notification_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/notification/notification_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/notification/notification_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/notification/notification_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-compile.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-docs.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-optional.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-plugin.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-pom.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-provided.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-runtime.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-sources.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-test.xml" afterPath="$PROJECT_DIR$/notification/target/scala-2.12/resolution-cache/reports/notification-notification_2.12-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/notification/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/notification/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/notification/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
@@ -290,47 +228,30 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/notification/target/streams/test/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/notification/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/notification/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/testproject-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/testproject-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/testproject-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/testproject-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-testproject-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_2.12/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
     </list>
@@ -390,30 +311,28 @@
       <file leaf-file-name="Item.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/InventoryService.scala">
+      <file leaf-file-name="Photo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Photo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="160">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -432,8 +351,8 @@
       <file leaf-file-name="AccountService.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="551">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#20#53#0" expanded="true" />
               </folding>
@@ -446,6 +365,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
               <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scalastyle-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scalastyle-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -507,10 +436,7 @@
         <option value="$PROJECT_DIR$/accounts/src/main/scala/asd.scala" />
         <option value="$PROJECT_DIR$/accounts/src/main/scala/User.scala" />
         <option value="$PROJECT_DIR$/accounts/src/main/scala/Database.scala" />
-        <option value="$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala" />
         <option value="$PROJECT_DIR$/accounts/src/test/scala/AccountServiceTest.scala" />
-        <option value="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" />
-        <option value="$PROJECT_DIR$/inventory/src/main/scala/Photo.scala" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/sda.sc" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/InventoryService.scala" />
         <option value="$PROJECT_DIR$/inventory/src/test/scala/InventoryServiceTest.scala" />
@@ -518,6 +444,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/checkout/src/main/scala/CartService.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/scalastyle-config.xml" />
+        <option value="$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala" />
+        <option value="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" />
+        <option value="$PROJECT_DIR$/inventory/src/main/scala/Photo.scala" />
       </list>
     </option>
   </component>
@@ -544,12 +474,47 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -617,9 +582,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -904,7 +867,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -919,7 +883,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26454183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2689394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -974,6 +938,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/InventoryService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/test/scala/AccountServiceTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/CartService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Cart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1189,13 +1229,6 @@
     <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/Database.java" />
     <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/asd.scala" />
     <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/Database.scala" />
-    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Photo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/collection/MapLike.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1217,17 +1250,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/InventoryService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="220">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -1259,10 +1284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1275,20 +1300,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalastyle-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/AccountService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="551">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#20#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Photo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
