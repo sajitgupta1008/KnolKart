@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="api"
+		module="api$sources_2.12"
+		revision="1.0"
+		status="integration"
+		publication="20170925212112"
+	/>
+	<configurations>
+		<conf name="cpd" visibility="private" description=""/>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="scoveragePlugin" visibility="private" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="net.sourceforge.pmd" name="pmd-jsp" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-jsp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-python" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-python" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.sksamuel.scapegoat" name="scalac-scapegoat-plugin_2.12" rev="1.3.2" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="scalac-scapegoat-plugin_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-cpp" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-cpp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.3" transitive="false" conf="test->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scalactic_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.12.1" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;scala-tool->compile,runtime(*),master(compile),runtime,compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.12.1/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.code.gson" name="gson" rev="2.5" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-objectivec" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-objectivec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.saxon" name="saxon" rev="9.1.0.8" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="saxon" type="jar" ext="jar" conf="*" e:classifier="dom"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" transitive="false" conf="scala-tool->default,compile,runtime,optional,optional(default),master">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-php" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-php" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.antlr" name="antlr4-runtime" rev="4.5.2-1" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="antlr4-runtime" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-javascript" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-javascript" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm" rev="5.0.4" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="asm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-vm" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-vm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.12" rev="1.0.6" transitive="false" conf="scala-tool->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scala-xml_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="accounts" name="accounts_2.12" rev="1.0" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="accounts_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="inventory" name="inventory_2.12" rev="1.0" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="inventory_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.3" transitive="false" conf="test->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="scalatest_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-plsql" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-plsql" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.java.dev.javacc" name="javacc" rev="5.0" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="javacc" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-xml" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-xml" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="notification" name="notification_2.12" rev="1.0" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="notification_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-core" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="checkout" name="checkout_2.12" rev="1.0" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="checkout_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-swift" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-swift" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-java" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mindrot" name="jbcrypt" rev="0.3m" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="jbcrypt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-matlab" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-matlab" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-ruby" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-ruby" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mozilla" name="rhino" rev="1.7.7" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="rhino" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jaxen" name="jaxen" rev="1.1.6" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jaxen" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.4" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.12" rev="1.0.4" transitive="false" conf="test->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-go" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-go" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-fortran" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-fortran" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.12" rev="1.0.5" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scala-xml_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sourceforge.pmd" name="pmd-cs" rev="5.4.2" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="pmd-cs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;compile-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;scala-tool->default,compile,runtime(*),master(compile),runtime,optional,optional(default),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.12.1/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.beust" name="jcommander" rev="1.48" transitive="false" conf="cpd->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jcommander" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="dashboard" name="dashboard_2.12" rev="1.0" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="dashboard_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.14.1" transitive="false" conf="scala-tool->compile,master(compile),compile(*),master">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

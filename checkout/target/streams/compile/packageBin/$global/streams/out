@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0mPackaging /home/knoldus/TestProject/checkout/target/scala-2.12/checkout_2.12-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	CartService.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/checkout/target/scala-2.12/classes/CartService.class[0m
+[0m[[0mdebug[0m] [0m	Cart.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/checkout/target/scala-2.12/classes/Cart.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

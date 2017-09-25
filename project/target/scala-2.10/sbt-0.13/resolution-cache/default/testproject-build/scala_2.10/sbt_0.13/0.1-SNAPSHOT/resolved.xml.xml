@@ -4,7 +4,7 @@
 		module="testproject-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170906103716"
+		publication="20170925205314"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -44,5 +44,8 @@
 		</dependency>
 		<dependency org="org.scalastyle" name="scalastyle-sbt-plugin" rev="0.9.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="org.scoverage" name="sbt-scoverage" rev="1.5.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="de.johoop" name="cpd4sbt" rev="1.2.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="com.orrsella" name="sbt-stats" rev="1.0.7" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="com.sksamuel.scapegoat" name="sbt-scapegoat" rev="1.0.4" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>

@@ -1,0 +1,7 @@
+<checkstyle version="5.0" generatedBy="scapegoat">
+      <file name="/home/knoldus/TestProject/inventory/src/main/scala/Item.scala">
+      <error line="1" message="Missing final modifier on case class" severity="Info" source="com.sksamuel.scapegoat.inspections.FinalModifierOnCaseClass" snippet="Case classes should have final modifier"></error>
+    </file><file name="/home/knoldus/TestProject/inventory/src/main/scala/Photo.scala">
+      <error line="1" message="Missing final modifier on case class" severity="Info" source="com.sksamuel.scapegoat.inspections.FinalModifierOnCaseClass" snippet="Case classes should have final modifier"></error>
+    </file>
+    </checkstyle>

@@ -1,0 +1,41 @@
+<scoverage 
+statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1506063434910">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="4" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="Cart" filename="Cart.scala" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Cart/addItem" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/knoldus/TestProject/checkout/src/main/scala/Cart.scala" method="addItem" start="167" end="177" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Cart/&lt;none&gt;" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/knoldus/TestProject/checkout/src/main/scala/Cart.scala" method="&lt;none&gt;" start="118" end="121" line="5" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Cart/removeItem" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/knoldus/TestProject/checkout/src/main/scala/Cart.scala" method="removeItem" start="220" end="248" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/knoldus/TestProject/checkout/src/main/scala/Cart.scala" method="removeItem" start="240" end="247" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

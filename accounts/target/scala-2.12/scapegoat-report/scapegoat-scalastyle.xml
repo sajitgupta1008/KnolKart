@@ -1,0 +1,5 @@
+<checkstyle version="5.0" generatedBy="scapegoat">
+      <file name="/home/knoldus/TestProject/accounts/src/main/scala/User.scala">
+      <error line="3" message="Missing final modifier on case class" severity="Info" source="com.sksamuel.scapegoat.inspections.FinalModifierOnCaseClass" snippet="Case classes should have final modifier"></error>
+    </file>
+    </checkstyle>

@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging /home/knoldus/TestProject/inventory/target/scala-2.12/inventory_2.12-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	pra.sc[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/pra.sc[0m
+[0m[[0mdebug[0m] [0m	Item$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/Item$.class[0m
+[0m[[0mdebug[0m] [0m	Item.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/Item.class[0m
+[0m[[0mdebug[0m] [0m	sda.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/sda.class[0m
+[0m[[0mdebug[0m] [0m	InventoryService.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/InventoryService.class[0m
+[0m[[0mdebug[0m] [0m	Photo.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/Photo.class[0m
+[0m[[0mdebug[0m] [0m	Photo$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/Photo$.class[0m
+[0m[[0mdebug[0m] [0m	sda.sc[0m
+[0m[[0mdebug[0m] [0m	  /home/knoldus/TestProject/inventory/target/scala-2.12/classes/sda.sc[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

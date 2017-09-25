@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.00" lines-valid="4" lines-covered="0" branches-valid="0" branches-covered="0" branch-rate="0.00" complexity="0" version="1.0" timestamp="1506063434878">
+    <sources>
+        <source>--source</source>
+        <source>/home/knoldus/TestProject/checkout/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="&lt;empty&gt;" line-rate="0.00" branch-rate="0.00" complexity="0">
+            <classes>
+                <class name="Cart" filename="Cart.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Cart/addItem" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Cart/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Cart/removeItem" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="0" branch="false"/>
+                                <line number="9" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                        <line number="5" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

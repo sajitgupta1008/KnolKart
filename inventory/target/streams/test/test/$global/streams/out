@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(InventoryServiceTest, org.scalatest.tools.Framework$$anon$1@5671590d, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 520 milliseconds.[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(InventoryServiceTest, org.scalatest.tools.Framework$$anon$1@4b5abc65, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 298 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m

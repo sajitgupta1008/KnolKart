@@ -1,0 +1,95 @@
+<scoverage 
+statement-count="22" statements-invoked="20" statement-rate="90.91" branch-rate="75.00" version="1.0" timestamp="1506063433149">
+    <packages>
+        <package name="main.scala" statement-count="22" statements-invoked="20" statement-rate="90.91">
+            <classes>
+                <class 
+                name="main.scala.AccountService" filename="AccountService.scala" statement-count="22" statements-invoked="20" statement-rate="90.91" branch-rate="75.00">
+                    <methods>
+                        <method 
+                        name="main.scala/AccountService/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="&lt;none&gt;" start="154" end="179" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="main.scala/AccountService/authenticate" statement-count="9" statements-invoked="7" statement-rate="77.78" branch-rate="50.00">
+                            <statements>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="586" end="599" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="675" end="691" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="551" end="576" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="631" end="710" line="30" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="502" end="577" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="609" end="615" line="28" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="609" end="615" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="651" end="692" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="authenticate" start="522" end="576" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="main.scala/AccountService/addUser" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="348" end="369" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="328" end="387" line="16" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="271" end="284" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="238" end="285" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="249" end="249" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="401" end="406" line="20" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="294" end="326" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="377" end="381" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="336" end="370" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="401" end="406" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="259" end="284" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="main.scala" class="AccountService" class-type="Class" full-class-name="main.scala.AccountService" source="/home/knoldus/TestProject/accounts/src/main/scala/AccountService.scala" method="addUser" start="311" end="326" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
